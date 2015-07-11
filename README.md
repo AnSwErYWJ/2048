@@ -8,6 +8,6 @@
 用wasd表示上下左右，q为退出。
 
 # Compile and Run
-./env_init.sh //配置编译运行环境  
-make  
-./2048   
+    ./env_init.sh //配置编译运行环境  
+    make  
+    ./2048   
