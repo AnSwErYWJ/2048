@@ -7,9 +7,6 @@
 
 #ifndef _2048_H
 #define _2048_H
-#endif
-
-
 int a[4][4] = {0};//4*4方格
 int empty=0;//方格里的空格数量
 int old_x=0,old_y=0;
@@ -21,3 +18,7 @@ void draw_digit(int y,int x);
 void cnt_value(int *new_y,int *new_x);
 int game_over();
 int cnt_one(int y,int x);
+#endif
+
+
+
